@@ -5,3 +5,27 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
+
+ul {
+  text-align: center;
+  line-height: 1.6;
+  /* list-style-position: inside;
+  list-style-type: square;
+  list-style-image: url('../images/checkmark.png'); */
+  /* list-style: square url('../images/checkmark.png') inside; */
+}
+
+/* li{
+  border: 2px dotted steelblue;
+} */
+
+ul li:nth-child(odd) {
+  background-color: lightblue;
+  color: teal;
+}
+ul ::marker {
+  color: springgreen;
+  font-size: 2rem;
+  font-family: fantasy;
+  content: "👉🏼";
+}
