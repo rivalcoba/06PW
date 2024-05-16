@@ -4,3 +4,21 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
+
+main {
+  border: red double 0px;
+  background: dodgerblue;
+  width: 100%;
+}
+
+p {
+  background: lightgray;
+  padding: 10px;
+  margin: 10px;
+}
+
+div.elemento-bajo {
+  height: 2rem;
+  width: 100%;
+  background-color: brown;
+}
