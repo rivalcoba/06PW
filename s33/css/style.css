@@ -4,3 +4,35 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
+
+.columns{
+  /* column-count: 4;
+  column-width: 250px; */
+  columns: 4 250px;
+  column-rule: 3px lightslategray solid;
+  column-gap: 3rem;
+}
+
+.columns p {
+  margin-top: 0px;
+}
+
+.columns h2 {
+  color: white;
+  background: slategray;
+  padding: 1rem;
+  break-inside: avoid;
+  break-before: column;
+}
+
+.columns .quote {
+  margin-top: 2rem;
+  font-size: 3rem;  /* Ajusta el tamaño de la fuente a 3 rem */
+  text-align: center; /* Alinea el texto al centro */
+  color: #333; /* Cambia el color del texto a un tono de gris oscuro */
+  column-span: all; /* Hace que el elemento se extienda a través de todas las columnas */
+}
+
+.nowrap {
+  white-space: nowrap;
+} 
